@@ -12,7 +12,32 @@ package q2
 //
 //Ajude os amigos a encontrar o número de problemas para os quais eles escreverão uma solução.
 
-func ProblemsSolved(answers [][3]bool) int {
-	// Seu código aqui
+func NumeroDeProblemas(matriz [][3]bool) int {
+	// package main
+
+import "fmt"
+
+func NumeroDeProblemas(matriz[][] bool) int {
+	numProblemas := 0
+	for _, linha := range matriz {
+	countTrue := 0
+	for _,valor := range {
+		if valor {
+			contTrue++
+		}
+
+	}
+
+	    if contTrue >= 2 {
+		numProblemas++
+		}
+		return numProblemas
+
+		}
+
+
+
+		}
+
 	return 0
 }
