@@ -33,11 +33,6 @@ func NumeroDeProblemas(matriz[][] bool) int {
 		}
 		return numProblemas
 
-	func main() {
-
-			matriz := [][]bool{{true, false, true}, {false, true, false}, {true, true, false}, {true, false, false}}
-			fmt.Printf(NumeroDeProblemas(matriz))
-
 		}
 
 
