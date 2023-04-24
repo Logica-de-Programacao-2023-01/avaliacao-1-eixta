@@ -15,7 +15,7 @@ package q5
 //Ajude Pedro a lidar com esta tarefa fácil.
 
 func ProcessString(s string) string {
-	// func ProcessString(s string) string {
+	
 	result := ""
 
 	for i := 0; i < len(s); i++ {
@@ -28,6 +28,4 @@ func ProcessString(s string) string {
 		}
 	}
 	return result
-}
-	return ""
 }
