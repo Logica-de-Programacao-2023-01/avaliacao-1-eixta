@@ -13,6 +13,36 @@ package q2
 //Ajude os amigos a encontrar o número de problemas para os quais eles escreverão uma solução.
 
 func ProblemsSolved(answers [][3]bool) int {
-	// Seu código aqui
+	// package main
+
+import "fmt"
+
+func NumeroDeProblemas(matriz[][] bool) int {
+	numProblemas := 0
+	for _, linha := range matriz {
+	countTrue := 0
+	for _,valor := range {
+		if valor {
+			contTrue++
+		}
+
+	}
+
+	    if contTrue >= 2 {
+		numProblemas++
+		}
+		return numProblemas
+
+	func main() {
+
+			matriz := [][]bool{{true, false, true}, {false, true, false}, {true, true, false}, {true, false, false}}
+			fmt.Printf(NumeroDeProblemas(matriz))
+
+		}
+
+
+
+		}
+
 	return 0
 }
