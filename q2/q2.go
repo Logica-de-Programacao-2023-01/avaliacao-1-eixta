@@ -12,7 +12,7 @@ package q2
 //
 //Ajude os amigos a encontrar o número de problemas para os quais eles escreverão uma solução.
 
-func ProblemsSolved(answers [][3]bool) int {
+func NumeroDeProblemas(matriz [][3]bool) int {
 	// package main
 
 import "fmt"
